@@ -1,0 +1,7 @@
+## erpnextdemo
+
+erpnext
+
+#### License
+
+mit
