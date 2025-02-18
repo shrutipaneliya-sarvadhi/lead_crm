@@ -5,6 +5,11 @@ app_description = "erpnext"
 app_email = "shruitpaneliya.sarvadhi@gmail.com"
 app_license = "mit"
 
+scheduler_events = {
+    "daily": [
+        "erpnextdemo.tasks.send_followup_notifications"
+    ]
+}
 # Apps
 # ------------------
 
