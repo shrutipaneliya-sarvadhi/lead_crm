@@ -1,0 +1,32 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.status == \"Open\"\n",
+ "creation": "2025-02-19 09:52:15.133194",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Task",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<h3>Follow-Up Reminder</h3>\n\n<p>A follow-up task for Lead <b>{{ doc.custom_lead }}</b> is due today.</p>\n",
+ "message_type": "Markdown",
+ "modified": "2025-02-19 11:17:06.943806",
+ "modified_by": "Administrator",
+ "module": "erpnextdemo",
+ "name": "Sales Person Mail",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "doc.custom_sales_team.custom_email"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Shrutipaneliya Sarvadhi",
+ "sender_email": "shrutipaneliya.sarvadhi@gmail.com",
+ "subject": "Follow-up Task for Lead {{ doc.custom_lead }}"
+}
